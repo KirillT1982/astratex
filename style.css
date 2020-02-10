@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 600px;
+  margin: 0 auto;
+}
+.header {
+  height: 300px;
+  background-image: url("./image/a.jpg");
+}
+
+h1 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 48px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  background-color: #F5F5F7;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li {
+  display: inline-block;
+  text-align: center;
+  margin: 10px auto;
+}
+
+ul li a {
+  font-family: arial, sans-serif;
+  font-weight: regular;
+  font-size: 14px;
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 0 10px;
+  transition: 0.5s;
+}
+
+ul li a:hover {
+  color: #A0A0A0;
+  transition: 0.5s;
+}
+.item1,
+.item2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  margin-top: 5px;
+}
+
+.item1 {
+   background-color: #F5F5F7;
+}
+
+.item2 {
+  background-color: white;
+}
+
+.item1-picture {
+  display: inline-block;
+  width:50%;
+}
+
+.item1-text {
+  font-family: Arial, sans-serif;
+  width: 50%;
+  text-align: center;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-size: 24px;
+  color: #C99AA2;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+p {
+  font-size: 18px;
+  margin-top: 30px;
+}
+
+.price {
+  display: flex;
+  justify-content: space-around;
+  font-weight: 500;
+  font-size: 20px;
+  margin-top: 30px;
+}
+
+.price-start {
+  text-decoration: line-through;
+}
+
+.price-end {
+  color:#C99AA2;
+}
+
+.button,
+.button-2 {
+  background-color: #c99aa2;
+  color: white;
+  padding: 15px 30px;
+  text-transform: uppercase;
+  border: 1px solid #c99aa2;
+  transition: 0.5s;
+  margin-top: 30px;
+}
+
+.button:hover,
+.button-2:hover {
+  color: #c99aa2;
+  background-color: white;
+  border: 1px solid #c99aa2;
+  transition: 0.5s;
+}
+
+.text-item {
+ font-family: Arial, sans-serif;
+ text-align: center;
+}
+.button-2 {
+  display: inline-block;
+  font-weight: 500;
+  font-size: 14px;
+}
+.footer {
+  display: flex;
+  margin: 40px auto;
+}
+
+.footer img {
+  border-top: 1px solid #9C9C9C;
+  border-bottom: 1px solid #9C9C9C;
+}
+
